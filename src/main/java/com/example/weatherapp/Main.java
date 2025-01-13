@@ -4,6 +4,7 @@ import javafx.application.Application;
 
 public class Main {
     public static void main(String[] args) {
-        Application.launch(WeatherApp.class, args);
+        //Application.launch(WeatherApp.class, args);
+        System.out.println(WeatherApi.getLocationData("Tokyo"));
     }
 }
